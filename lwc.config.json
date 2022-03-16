@@ -1,0 +1,12 @@
+{
+    "modules": [
+        {
+            "dir": "src/client/modules"
+        }
+    ],
+    "moduleProviders": [
+        "@lwrjs/label-module-provider",
+        "@lwrjs/lwc-module-provider",
+        "@lwrjs/npm-module-provider"
+    ]
+}

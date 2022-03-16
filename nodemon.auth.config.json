@@ -1,0 +1,11 @@
+{
+    "watch": [
+        "src/servers/auth/**/*.js"
+    ],
+    "ext": "js",
+    "ignore": [
+        "src/**/*.spec.js",
+        "src/**/*.test.js"
+    ],
+    "exec": "node ./src/servers/auth/api.js"
+}

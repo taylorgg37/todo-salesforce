@@ -1,0 +1,32 @@
+.my-config {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    grid-gap: 10px;
+    z-index: 999999;
+}
+
+.my-config button {
+    font-size: 1rem;
+    padding: 1rem;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 2px solid rgb(173, 255, 47, 0.3);
+}
+
+.my-config .active {
+    background: lightgreen;
+    color: green;
+}
+.my-config .active:hover {
+    background: lightgreen;
+    color: green;
+}
+
+.my-config button:hover {
+    background-color: rgba(0,0,0,0.1);
+}
